@@ -1,0 +1,8 @@
+function sentensify(str) {
+  // Add your code below this line
+  var arrStr = str.split(/\W/);
+  var strnew = arrStr.join(" ");
+  return strnew;
+  // Add your code above this line
+}
+sentensify("May-the-force-be-with-you");
