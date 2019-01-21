@@ -1,0 +1,12 @@
+function checkPositive(arr) {
+  // Add your code below this line
+  
+  function Plus (num){
+      return num > 0;
+  }
+
+  return arr.every(Plus);
+  
+  // Add your code above this line
+}
+checkPositive([1, 2, 3, -4, 5]);
